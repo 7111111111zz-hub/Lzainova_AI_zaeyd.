@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Lzainova AI",
+    "slug": "lzainova-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lzainova",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.lzainova.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0E27"
+      },
+      "package": "ai.lzainova.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
